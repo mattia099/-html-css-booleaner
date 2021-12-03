@@ -1,11 +1,12 @@
 *{
-    margin:0;
+    margin: 0px;
     padding: 0;
     box-sizing: border-box;
 
 }
 
 header{
+    margin-top: 0;
     background-color: lightskyblue;
     background-image: url('img/pattern.png');
     background-size: auto;
@@ -15,9 +16,7 @@ header{
     position: relative;
 }
 
-#sfondo{
-    height: 100%;
-}
+
 
 #logo{
     width: 20%;
@@ -28,13 +27,23 @@ header{
 
 main{
     width: 80%;
-    margin:20px auto;
+    margin: auto;
+    
 }
 
-p>span{
-    color: rgb(75, 191, 245);
+footer{
+    width: 80%;
+    margin: auto;
 }
-.paragrafo{
-    margin-top: 25px;
+
+footer>div{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: grey;
+}
+
+footer img{
+    display: block;
+    margin-bottom: 20px;
 }
 
