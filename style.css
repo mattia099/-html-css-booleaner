@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-color: lightskyblue;
+    background-image: url('img/pattern.png');
+    background-size: auto;
+    height: 150px;
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+#sfondo{
+    height: 100%;
+}
+
+#logo{
+    width: 20%;
+    position: absolute;
+    left:0;
+    bottom:0;
+}
+
+main{
+    width: 80%;
+    margin:20px auto;
+}
+
+p>span{
+    color: rgb(75, 191, 245);
+}
+.paragrafo{
+    margin-top: 25px;
+}
+
