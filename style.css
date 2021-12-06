@@ -57,13 +57,6 @@ footer>div{
     color: grey;
 }
 
-footer img{
-    display: block;
-    margin-bottom: 20px;
-    width: 30%;
-    height: 25%;
-}
-
 
 .images{
     width: 100%;
@@ -73,4 +66,22 @@ footer img{
 img{
     width: 49%;
     height: 100%;
+}
+
+.img1{
+    background-image: url('img/monitor.jpg');
+    width: 230px;
+    height: 170px;
+    background-size: cover;
+    color: white;
+    padding: 15px;
+}
+
+.img2{
+    background-image: url('img/graph.jpg');
+    width: 230px;
+    height: 170px;
+    background-size: cover;
+    color: white;
+    padding: 15px;
 }
