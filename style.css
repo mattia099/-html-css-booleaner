@@ -7,32 +7,38 @@
 
 header{
     margin-top: 0;
-    background-color: lightskyblue;
+    background-color: #1e90ff;
     background-image: url('img/pattern.png');
     background-size: auto;
-    height: 150px;
+    height: 120px;
     width: 80%;
     margin: auto;
     position: relative;
 }
-
-
+table{
+    border-spacing: 0;
+}
+thead{
+    background-color: #00bfff;
+    color: white;
+    text-align: left;
+}
 
 #logo{
-    width: 20%;
+    width: 25%;
     position: absolute;
-    left:0;
+    left:12%;
     bottom:0;
 }
 
 main{
-    width: 80%;
+    width: 60%;
     margin: auto;
     
 }
 
 footer{
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 
@@ -47,3 +53,12 @@ footer img{
     margin-bottom: 20px;
 }
 
+
+.images{
+    width: 100%;
+    height: 400px;
+}
+img{
+    width: 49%;
+    height: 100%;
+}
