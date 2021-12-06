@@ -23,7 +23,9 @@ thead{
     color: white;
     text-align: left;
 }
-
+ul{
+    padding-left: 20px;
+}
 #logo{
     width: 25%;
     position: absolute;
@@ -51,6 +53,8 @@ footer>div{
 footer img{
     display: block;
     margin-bottom: 20px;
+    width: 30%;
+    height: 25%;
 }
 
 
